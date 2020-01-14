@@ -105,8 +105,8 @@ h1{
 
 .topsection{
 	border-bottom: black 2px solid;
-	margin-left: 2%;
-	margin-right:5%;
+	margin-left:2% ;
+	margin-right: 5%;
 	margin-bottom: 50px;
 	padding-bottom: 150px;
 }
@@ -137,8 +137,8 @@ h1{
  .middle-img{
 	 display:block;
 	 position:relative;
-	left: 2%;
 	 width: 90%;
+	 left:4%;
 
  }
 
@@ -156,7 +156,14 @@ h1{
 	 margin: 20px;
 	margin-right:6%;
  }
-
- .footer{
+ #line{
+	 line-height: 40px;
 	 
  }
+
+
+ #copy{
+	 position: relative;
+	 left:38%;	
+ }
+
