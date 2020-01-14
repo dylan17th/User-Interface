@@ -64,3 +64,99 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/*starting from the top of the page and working my way down*/
+ body{
+	 margin: 20px;
+ }
+.navbar{
+	margin:20px; 
+}
+.navbar a{
+	color: lightgrey; 
+	text-decoration: none;
+	text-align: center;
+	padding: 35px;
+	margin: 30px;
+}
+
+nav{
+	display:inline;
+}
+
+h1{
+	font-size: 100px;
+	margin:150px auto 50px 250px;	
+	text-align: center;
+	position: relative;
+	left:-35%;
+}
+
+.button{
+	border: black solid 2px;
+	font-size: 30px;
+	text-align: center;
+	padding: 10px 20px;
+	max-width: 250px;
+	margin: auto auto auto 240px;
+	position: relative;
+	left:-55px;
+}
+
+.topsection{
+	border-bottom: black 2px solid;
+	margin-left: 2%;
+	margin-right:5%;
+	margin-bottom: 50px;
+	padding-bottom: 150px;
+}
+
+.mid{
+	display: inline-block;
+	position: absolute;
+	top: 175px;
+	right:15%;
+	width: 500px;
+	height:500px;
+}
+
+
+.maincontent .features{
+	max-width: 45%;
+	display: inline-block; 
+	padding: 7%;
+}
+
+.maincontent .about{
+	display:inline-block;
+	position:relative; 
+	left: 6%;
+	max-width: 45%;
+
+}
+ .middle-img{
+	 display:block;
+	 position:relative;
+	left: 2%;
+	 width: 90%;
+
+ }
+
+ .services, .product , .vision{
+	 display:inline-block;
+	 position: relative; 
+	 max-width: 33%;
+	 padding:5%;
+	 margin-top: 40px;
+	 margin-bottom: 20px;
+ }
+
+ .maincontent{
+	 border-bottom: black 2px solid;
+	 margin: 20px;
+	margin-right:6%;
+ }
+
+ .footer{
+	 
+ }
