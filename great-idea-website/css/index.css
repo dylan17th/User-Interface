@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5 {
  body{
 	 margin: 20px;
  }
-
+/*this is the start of the nav bar styles*/
 .navbar{
 	margin:20px; 
 }
@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5 {
 nav{
 	display:inline;
 }
-
+/*this is the start of the top section styles*/
 h1{
 	font-size: 100px;
 	margin:150px auto 50px 250px;	
@@ -134,7 +134,7 @@ h1{
 	margin-bottom: 50px;
 	padding-bottom: 150px;
 }
-
+/*this is the big circle photo style*/
 .mid{
 	display: inline-block;
 	position: absolute;
@@ -144,7 +144,8 @@ h1{
 	height:500px;
 }
 
-
+/*this is the start of the main content section. these styles are for the 5 sections elements and the big photo*/
+/*styling for the top two sections about the photo*/
 .maincontent .features, .about{
 	max-width: 45%;
 	display: inline-block; 
@@ -152,7 +153,7 @@ h1{
 	left:5%;
 	padding: 7%;
 }
-
+/*this is the big photo in between the sections*/
  .middle-img{
 	 display:block;
 	 position:relative;
@@ -160,7 +161,7 @@ h1{
 	 left:5%;
 
  }
-
+/*this is styling for the bottom three section below the big photo*/
  .services, .product , .vision{
 	 display:inline-block;
 	 position: relative; 
@@ -175,6 +176,7 @@ h1{
 	 margin: 20px;
 	margin-right:6%;
  }
+ /*this is the start of the styling for the footer element*/
  #line{
 	 line-height: 40px; 
  }
@@ -190,6 +192,7 @@ h1{
 	left: 60px;
 	top: 30px;
 }
+/*this was top give space between the copy right and the botttom of the page*/
 .footer h4{
 	padding:25px;
 }
