@@ -56,7 +56,8 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Sigmar One', cursive;
+	font-family: 'Sigmar One', cursive;
+	overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5 {
@@ -87,6 +88,7 @@ h1, h2, h3, h4, h5 {
 	padding:10px;
 	border-radius: 10px;
 	z-index: 10;
+	right:5%;
 }
 .navbar a{
 	color: lightgrey; 
@@ -130,16 +132,17 @@ h1{
 .topsection{
 	border-bottom: black 2px solid;
 	margin-left:2% ;
-	margin-right: 5%;
+	margin-right: 2%;
 	margin-bottom: 50px;
 	padding-bottom: 150px;
+	position: relative;
 }
 /*this is the big circle photo style*/
 .mid{
 	display: inline-block;
 	position: absolute;
-	top: 175px;
-	right:8%;
+	top:20px;
+	right:6%;
 	width: 500px;
 	height:500px;
 }
@@ -174,7 +177,7 @@ h1{
  .maincontent{
 	 border-bottom: black 2px solid;
 	 margin: 20px;
-	margin-right:6%;
+	margin-right:2%;
  }
  /*this is the start of the styling for the footer element*/
  #line{
