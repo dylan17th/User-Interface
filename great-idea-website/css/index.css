@@ -69,9 +69,11 @@ h1, h2, h3, h4, h5 {
  body{
 	 margin: 20px;
  }
+ 
 .navbar{
 	margin:20px; 
 }
+
 .navbar a{
 	color: lightgrey; 
 	text-decoration: none;
@@ -157,13 +159,17 @@ h1{
 	margin-right:6%;
  }
  #line{
-	 line-height: 40px;
-	 
+	 line-height: 40px; 
  }
-
 
  #copy{
 	 position: relative;
-	 left:38%;	
+	 left:33%;	
+	 padding-bottom: 150px;
  }
 
+.footer{
+	position: relative ;
+	left: 60px;
+	top: 30px;
+}
