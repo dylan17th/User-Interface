@@ -75,13 +75,25 @@ h1, h2, h3, h4, h5 {
 .navbar{
 	margin:20px; 
 }
+.header{
+	position:absolute; 
+	top:0px;
+	
+}
 
+.navbar{
+	position:fixed;
+	background-color:darkgrey;
+	padding:10px;
+	border-radius: 10px;
+}
 .navbar a{
 	color: lightgrey; 
 	text-decoration: none;
 	text-align: center;
-	padding: 25px;
-	margin: 25px;
+	padding:25px;
+	margin:25px;
+	
 }
 
 .navbar a:hover{
