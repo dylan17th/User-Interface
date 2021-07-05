@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton|Sigmar+One&display=swap');
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -54,13 +56,150 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Sigmar One', cursive;
+	overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Monoton', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+/*starting from the top of the page and working my way down*/
+ body{
+	 margin: 20px;
+ }
+/*this is the start of the nav bar styles*/
+.navbar{
+	margin:20px; 
+}
+.header{
+	position:absolute; 
+	top:0px;
+	
+}
+
+.navbar{
+	position:fixed;
+	background-color:darkgrey;
+	padding:10px;
+	border-radius: 10px;
+	z-index: 10;
+	right:5%;
+}
+.navbar a{
+	color: lightgrey; 
+	text-decoration: none;
+	text-align: center;
+	padding:25px;
+	margin:25px;
+	
+}
+
+.navbar a:hover{
+	color:black;
+}
+
+nav{
+	display:inline;
+}
+/*this is the start of the top section styles*/
+.main-title h1{
+	font-size: 100px;
+	margin-top: 200px;
+	text-align: center;
+	display:inline-block;
+	width:40%;
+	position: relative;
+	margin-left: -20px;
+	
+}
+
+.button{
+	border: black solid 2px;
+	font-size: 30px;
+	text-align: center;
+	padding: 10px 20px;
+	max-width: 300px;
+	display: block;
+	margin-left: 80px;
+}
+
+.button:hover{
+	background-color:lightgrey;
+}
+
+.topsection{
+	padding-bottom: 200px;
+	position: relative;
+	display: inline-block;
+	border-bottom: black solid 2px;
+	margin-left: 87px;
+}
+/*this is the big circle photo style*/
+.mid{
+	display: inline-block;
+	width: 500px;
+	height:500px;
+	position: relative;
+	top:200px;
+	left:250px;
+}
+
+/*this is the start of the main content section. these styles are for the 5 sections elements and the big photo*/
+/*styling for the top two sections about the photo*/
+.maincontent .features, .about{
+	max-width: 45%;
+	display: inline-block; 
+	position: relative;
+	left:5%;
+	padding: 7%;
+	line-height: 150%;
+}
+/*this is the big photo in between the sections*/
+ .middle-img{
+	 display:block;
+	 position:relative;
+	 width: 90%;
+	 left:5%;
+
+ }
+/*this is styling for the bottom three section below the big photo*/
+ .services, .product , .vision{
+	 display:inline-block;
+	 position: relative; 
+	 max-width: 33%;
+	 padding:5%;
+	 margin-top: 40px;
+	 margin-bottom: 20px;
+	 line-height: 150%;;
+ }
+
+ .maincontent{
+	 border-bottom: black 2px solid;
+	 margin: 20px;
+	margin-right:2%;
+ }
+ /*this is the start of the styling for the footer element*/
+ #line{
+	 line-height: 40px; 
+ }
+
+ #copy{
+	 position: relative;
+	 left:33%;	
+	 padding-bottom: 150px;
+ }
+
+.footer{
+	position: relative ;
+	left: 60px;
+	top: 30px;
+}
+/*this was top give space between the copy right and the botttom of the page*/
+.footer h4{
+	padding:25px;
+}
